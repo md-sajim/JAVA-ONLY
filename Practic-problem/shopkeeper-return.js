@@ -3,7 +3,7 @@ function shoping(apple = 0, orang = 0, amount = 0) {
     if (apple < 0 || orang < 0 || amount < 0) {
         return wrining = "please give the positive number"
     }
-    else if (typeof apple != "number " || orang != "number" || amount != "number") {
+    else if (typeof apple !== "number" || typeof orang !== "number" || typeof amount !== "number") {
         return wrining = "pelase give a valid number of 1.......9"
     }
     else {
